@@ -1,0 +1,66 @@
+.featured {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #013914;
+    color: white;
+
+    .container {
+        width: 1400px;
+        display: flex;
+        align-items: center;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            .search {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                border-radius: 5px;
+                .searchInput {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    input {
+                        border: none;
+                        outline: none;
+                    }
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin: 10px;
+                    }
+                }
+                button {
+                    width: 120px;
+                    height: 55px;
+                    border: none;
+                    background-color: #1dbf73;
+                    border-radius: 0px 5px 5px 0px; 
+                    color: white;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #267f55;
+                    }
+                }
+            }
+
+            .popular {
+                span {}
+                button{}
+            }
+        }
+        .right {}
+    }
+}
